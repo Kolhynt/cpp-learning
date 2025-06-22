@@ -13,25 +13,38 @@ Solves quadratic equations using the quadratic formula.
 
 ---
 
+### 💱 [02 - Currency Converter](./02-currency-converter/)
+**Difficulty:** ⭐⭐☆☆☆ 
+**Concepts:** Multiple variables, combined operations, comments 
+**Date:** June 2025
+
+Converts Pesos, Reais and Soles to US Dollars with up-to-date rates.
+
+---
+
 ## 🎯 Skills Acquired
 
 - ✅ **Input/Output** - `cin`, `cout`, stream management
-- ✅ **Variables** - `double`, declarations
+- ✅ **Variables** - `double`, multiple statements
 - ✅ **Flow Control** - `if/else`, validation
-- ✅ **Math** - Formulas, `<cmath>` library
+- ✅ **Math** - Formulas, combined operations
+- ✅ **Comments** - Professional documentation
+- 🔄 **Functions** - In progress for project #03
 
 ## 🚀 Upcoming Projects
 
-- [ ] **Currency Converter** - Project #02 coming soon!
+// none
 
 ## 🛠️ How to Compile and Run
 
 ```bash
 # Navigate to the project folder
 cd 01-quadratic-solver
+# or
+cd 02-currency-converter
 
 # Compile
-g++ quadratic_solver.cpp -o solver
+g++ *.cpp -o program
 
 # Run
-./solver
+./program
